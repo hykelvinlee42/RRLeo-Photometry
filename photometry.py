@@ -233,8 +233,8 @@ for f in filelist:
     file_index += 1
     print()
 
-# Amplitude of collected data i.e. the difference between the max and min
-amp = max(mags) - min(mags)
+# Amplitude of collected data i.e. the half the difference between the max and min
+amp = (max(mags) - min(mags)) / 2
 
 plt.errorbar(times, mags, yerr=mags_err, fmt=".")
 plt.title("RR Leo luminosity period relationship")
@@ -245,7 +245,10 @@ text = "amplitude: " + str(np.round(amp, 5))
 text += "\n"
 text += "ext_coeff: " + str(np.round(ext_coeff, 5))
 text += "\n"
-text += "period: 0.4524021 d"
+period = file_index / 60.0 / 24
+text += "observed period: " + str(np.round(period, 7)) + " d"
+text += "\n"
+text += "published period: 0.4524021 d"
 plt.text(0.1, 0.07, text, transform=plt.gca().transAxes)
 # plt.show()
 plt.savefig("RRLeo_period.eps")
