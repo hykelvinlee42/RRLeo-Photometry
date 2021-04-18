@@ -20,7 +20,7 @@ Using SEP, all objects within a 750 by 750 pixels box at the centre with ADU cou
 
 ![error-propagation](https://latex.codecogs.com/svg.image?%5Csigma_m%20=%20(%5Csigma_F%20/%20t_%7Bexp%7D)%5Cleft%7C%7B-2.5%20/%20(F%5Cln%7B10%7D%20/%20t_%7Bexp%7D)%7D%5Cright%7C)
 
-where `m` is the instrumental magnitude, `F` is the total flux of object in the frame, `t`<sub>exp</sub> is the exposure time (i.e. 60 seconds) and σ are the corresponding errors.
+where _m_ is the instrumental magnitude, _F_ is the total flux of object in the frame, _t_<sub>exp</sub> is the exposure time (i.e. 60 seconds) and _σ_ are the corresponding errors.
 
 In order to obtain the apparent magnitude of RR Leo in each frame, the apparent magnitude of a standard reference star in the same frame has to be known. In this project, GSC 1968:912 is used as the reference star. It has an apparent magnitude of 11.02 in V band. GSC 1968:912 was extracted from the same frame and its instrumental magnitude was calculated using the equations above. Then, the apparent magnitude of RR Leo was calculated by subtracting the magnitude offset of GSC 1968:912 from RR Leo’s instrumental magnitude.
 
@@ -28,7 +28,7 @@ In addition, the atmospheric extinction has effects on the brightness and wavele
 
 ![airmass](https://latex.codecogs.com/svg.image?m_%7B%5Clambda%7D%20=%20m_%7B%5Clambda0%7D%20&plus;%20k_%7B%5Clambda%7DX)
 
-where `m`<sub>λ</sub> is the measured magnitude, `m`<sub>λ0</sub> is the magnitude as seen above the atmosphere, `X` is the air mass and the atmospheric extinction coefficient, `k`<sub>λ</sub>, is measured and labelled on the resulting graph.
+where _m_<sub>λ</sub> is the measured magnitude, _m_<sub>λ0</sub> is the magnitude as seen above the atmosphere, _X_ is the air mass and the atmospheric extinction coefficient, _k_<sub>λ</sub>, is measured and labelled on the resulting graph.
 
 ## Result
 
