@@ -1,0 +1,26 @@
+{
+  "name": "RRLeo-Photometry",
+  "@context": "https://w3id.org/codemeta/3.0",
+  "author": [
+    {
+      "familyName": "Lee",
+      "id": "https://orcid.org/0009-0000-7340-3204",
+      "givenName": "HY. Kelvin",
+      "type": "Person"
+    }
+  ],
+  "codeRepository": "https://github.com/hykelvinlee42/RRLeo-Photometry",
+  "dateCreated": "2021-04-08",
+  "description": "The Periodic Magnitude of variable star RR Leo",
+  "identifier": "10.5281/zenodo.8190781",
+  "issueTracker": "https://github.com/hykelvinlee42/RRLeo-Photometry/issues",
+  "keywords": [
+    "Variable Star",
+    "Astronomy"
+  ],
+  "license": "https://spdx.org/licenses/MIT",
+  "programmingLanguage": [
+    "Python"
+  ],
+  "type": "SoftwareSourceCode"
+}

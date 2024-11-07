@@ -1,0 +1,14 @@
+title: RRLeo-Photometry
+authors:
+  - given-names: HY. Kelvin
+    family-names: Lee
+cff-version: 1.2.0
+message: If you use this software, please cite it using the metadata from this file.
+type: software
+doi: 10.5281/zenodo.8190781
+abstract: The Periodic Magnitude of variable star RR Leo
+keywords:
+  - Variable Star
+  - Astronomy
+license: MIT
+repository-code: https://github.com/hykelvinlee42/RRLeo-Photometry
